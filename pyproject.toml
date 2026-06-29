@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "mymovie"
+version = "0.1.0"
+description = "AI全自动视频生产流水线"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.40.0",
+    "pyyaml>=6.0",
+    "rich>=13.0",
+]
+
+[project.scripts]
+mymovie = "mymovie.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

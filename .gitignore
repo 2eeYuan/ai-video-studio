@@ -1,0 +1,38 @@
+# Local editor/agent state
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+
+# Node/Vite/Tauri
+node_modules/
+**/node_modules/
+**/dist/
+**/src-tauri/target/
+
+# Runtime output
+projects/
+downloads/
+temp/
+storage/
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment and local secrets
+.env
+.env.*
+
+# Reference archives and vendored examples
+refs/

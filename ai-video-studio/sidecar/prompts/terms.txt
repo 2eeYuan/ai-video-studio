@@ -1,0 +1,7 @@
+Generate 5 English search terms for stock video footage related to this video.
+
+Subject: {subject}
+Script excerpt: {script}
+
+Return ONLY a JSON array of strings, e.g. ["term1", "term2", "term3"].
+Each term should be 1-3 words, always include the main subject.

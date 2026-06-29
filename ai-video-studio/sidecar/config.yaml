@@ -1,0 +1,33 @@
+llm:
+  provider: "openai"
+  api_key: ""
+  base_url: "https://api.openai.com/v1"
+  model: "gpt-4o-mini"
+
+tts:
+  provider: "edge-tts"
+  voice: "zh-CN-YunxiNeural"
+  rate: 1.0
+  volume: 1.0
+  api_key: ""
+  base_url: ""
+  model: ""
+  region: ""
+
+video:
+  aspect: "9:16"
+  clip_duration: 3
+  transition: "none"
+  concat_mode: "random"
+
+subtitle:
+  enabled: true
+  font: "MicrosoftYaHeiBold.ttc"
+  font_size: 60
+  font_color: "#FFFFFF"
+  stroke_color: "#000000"
+  stroke_width: 1.5
+  position: "bottom"
+  background: true
+  background_color: "#000000"
+  rounded: true
